@@ -1,0 +1,143 @@
+*{
+    font-family: 'El Messiri','Noto Serif TC', serif !important;
+    line-height: 1.0;
+    letter-spacing: 5px;
+    color: var(--main);
+}
+
+.disclaimer{
+    display: none !important;
+   }
+
+:root{
+    --bg:#f0d5cd;
+    --main:#9c847c;
+    --Red:#ce857c;
+    --blue:#495265;
+    --yellow:#deb05a;
+    --green:#446552;
+    --purple:#6f5d77;
+    --orange:#c29667;
+    --black:#222222;
+    --white:#ffffff;
+}
+
+div{
+    padding-bottom: 5px;
+}
+
+body{
+    background: var(--bg);
+    overflow-x: hidden;
+}
+
+label{
+    padding-top: 5px;
+    padding-left: 15px;
+    border-left:5px solid var(--main);
+}
+
+#display-image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ccktool-title{
+    margin: 0px 0px;
+    margin-top: 45px;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--main);
+}
+.ccktool-title .sub{
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.ccktool-block{
+    margin: 5px 0px;
+    padding: 15px;
+    background: var(--white);
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+.ccktool-btn{
+    min-width: 100%;
+    padding-top: 12px;
+    background: var(--main);
+    border: none;
+    transition: all ease-in-out 0.3s;
+}
+
+
+.ccktool-btn:hover,
+.ccktool-btn:focus,
+.ccktool-btn:active{
+    color: var(--main);
+    background: var(--bg);
+    letter-spacing: 15px;
+}
+
+.ccktool-color{
+    padding: 0px;
+    min-height: 43px;
+}
+
+.ccktool-platte{
+    min-height: 43px;
+    display: inline-block;
+}
+
+
+.slidecontainer {
+    padding-top: 13px;
+    width: 100%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 10px;
+    background: var(--bg);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: 1px solid var(--main);
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--main);
+    border: 1px solid #68493f;
+    cursor: pointer;
+  }
+
+  input::-webkit-file-upload-button {
+    margin-right: 15px;
+    margin-bottom: 3px;
+    padding: 10px 20px;
+    padding-top: 15px;
+    background-color: var(--main);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    transition: 300ms ease-out;
+    cursor: pointer;
+  }
+  
+  input::-webkit-file-upload-button:hover {
+    color: var(--main);
+    background-color: var(--bg);
+  }
